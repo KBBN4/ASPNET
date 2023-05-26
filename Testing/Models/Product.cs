@@ -7,12 +7,12 @@ namespace Testing.Models
 		{
 		}
 
-		public object ProductID { get; set; }
-        public object Name{ get; set; }
-        public object Price { get; set; }
-        public object CategoryID { get; set; }
-        public object OnSale{ get; set; }
-        public object StockLevel { get; set; }
+		public int ProductID { get; set; }
+        public string Name{ get; set; }
+        public double Price { get; set; }
+        public int CategoryID { get; set; }
+        public int OnSale{ get; set; }
+        public int StockLevel { get; set; }
 
     }
 }
